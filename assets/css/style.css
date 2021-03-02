@@ -95,7 +95,7 @@ html {
 .btn {
 	border-color: #e84e1f;
 	font-weight: bold;
-	border: 2px solid rgb(255, 79, 0);
+	border: 2px solid rgba(255, 255, 255,0.8);
 }
 .btn-outline-light:hover {
 	color: #fff;
