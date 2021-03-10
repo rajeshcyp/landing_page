@@ -40,12 +40,15 @@ html {
 .navbar-brand {
 	font-weight: 900;
 	font-size: 2.2em;
-	color: #ff8c00;
+	color: color: rgba(255, 255, 255, 0.8);
 }
 .navbar-light .navbar-brand,
 .navbar-light .navbar-brand:focus,
 .navbar-light .navbar-brand:hover {
-   color: #ff8c00;
+   color: rgba(255, 255, 255, 0.8);
+   border: 2px solid rgba(255, 255, 255, 0.8);
+   padding-left: 10px;
+   padding-right: 10px;
 }
 .navbar-light .navbar-nav .nav-link {
 	color: rgba(255, 255, 255, 0.8);
@@ -95,7 +98,8 @@ html {
 .btn {
 	border-color: #e84e1f;
 	font-weight: bold;
-	border: 2px solid rgba(255, 255, 255,0.8);
+	border: 1px solid rgba(255, 255, 255,0.8);
+	border-radius:0;
 }
 .btn-outline-light:hover {
 	color: #fff;
@@ -203,7 +207,7 @@ html {
 /* ---- About ---- */
 .about-us {
 	padding: 2% 20% 2%;
-	background:#EFE8FC;
+	background:#fff;
 }
 .section-header {
 	text-align: center;
@@ -234,7 +238,7 @@ html {
 /* ---- Services ----*/
 .services {
 	padding: 2% 20%;
-	background:#EFE8FC;
+	background:#fff;
 }
 .border-radius-50 {
 	border-radius: 50%;
