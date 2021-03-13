@@ -31,6 +31,7 @@ html {
 	background-repeat: no-repeat;
 	min-height: 70vh;
 }
+
 /* --- Navbar --- */
 
 .navbar {
@@ -102,9 +103,11 @@ html {
 	border-radius:0;
 }
 .btn-outline-light:hover {
-	color: #fff;
+	color: #2a2a2a;
 	border-color: rgb(255, 79, 0);
 	background-color: rgb(255, 79, 0);
+	border-color: rgba(200, 200, 200,0.8);
+	background: rgba(200, 200, 200,0.8);
 }
 .rounded {
 	border-radius:2rem !important;
